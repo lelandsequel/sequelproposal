@@ -7,7 +7,9 @@
 **Header: A Working Prototype for Search Dominance**
 - **The Vision:** This is not just a presentation; it is a fully functional high-performance engine designed to outperform every competitor in Lake George.
 - **The Goal:** To capture the 2026 traveler who searches via AI (AEO) and hyper-local landmarks (pSEO).
-- **Presentation By:** Candle Strategy
+- **Presentation By:** C&L Strategy
+- **Website:** cl-strategy.com
+- **Contact:** hello@cl-strategy.com
 
 ---
 
@@ -71,4 +73,5 @@
 - **The Prototype is Live:** You can browse the working site right now to experience the speed and depth we are proposing.
 - **Investment in Growth:** This isn't a cost; it's a digital asset that works 24/7 to fill your rooms.
 - **Next Step:** Approve the transition from prototype to the live domain.
+
 

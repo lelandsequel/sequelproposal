@@ -26,19 +26,21 @@ export default function Proposal() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-32">
       {/* Slide 1: Executive Summary */}
-      <section className="relative min-h-[90vh] flex flex-col justify-center items-center text-center px-6 pt-20">
-        <div className="absolute inset-0 bg-[url('https://www.heritageoflakegeorge.com/wp-content/uploads/2019/04/photos-page.jpg')] bg-cover bg-center opacity-10 grayscale" />
+      <section className="relative min-h-[90vh] flex flex-col justify-center items-center text-center px-6 pt-20 overflow-hidden bg-slate-900">
+        <div className="absolute inset-0 bg-[url('https://www.heritageoflakegeorge.com/wp-content/uploads/2019/04/photos-page.jpg')] bg-cover bg-center opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/60 to-slate-50" />
+        
         <div className="relative z-10 max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-1000">
-          <Badge variant="outline" className="text-sm px-4 py-1 border-slate-400 text-slate-600 uppercase tracking-widest bg-white/50 backdrop-blur-sm">
+          <Badge variant="outline" className="text-sm px-4 py-1 border-white/20 text-white uppercase tracking-widest bg-white/10 backdrop-blur-sm">
             Proposal for The Heritage of Lake George
           </Badge>
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
-            Dominating the <span className="text-primary">Digital Landscape</span> of Lake George Village
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white leading-[1.1] drop-shadow-lg">
+            Dominating the <span className="text-primary-foreground text-blue-300">Digital Landscape</span> of Lake George Village
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-slate-200 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
             A fully functional high-performance engine designed to outperform every competitor in Lake George.
           </p>
-          <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 text-sm font-medium text-slate-500 uppercase tracking-wider">
+          <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 text-sm font-medium text-slate-300 uppercase tracking-wider">
             <span>Presentation by C&L Strategy</span>
             <span className="hidden md:inline">•</span>
             <span>cl-strategy.com</span>
@@ -49,7 +51,7 @@ export default function Proposal() {
         </div>
       </section>
 
-      <div className="max-w-5xl mx-auto px-6 space-y-32">
+      <div className="max-w-5xl mx-auto px-6 space-y-32 -mt-20 relative z-20">
         
         {/* Slide 2: The Challenge */}
         <section className="space-y-8">
@@ -73,7 +75,7 @@ export default function Proposal() {
                 <CardTitle>Performance Gap</CardTitle>
               </CardHeader>
               <CardContent className="text-slate-600">
-                Modern travelers abandon sites that take >3s to load. We’ve built this prototype to load in under 1 second.
+                Modern travelers abandon sites that take &gt;3s to load. We’ve built this prototype to load in under 1 second.
               </CardContent>
             </Card>
             <Card className="bg-white shadow-lg border-slate-100">
@@ -264,5 +266,7 @@ export default function Proposal() {
     </div>
   );
 }
+
+
 
 

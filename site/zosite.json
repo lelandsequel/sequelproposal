@@ -1,0 +1,19 @@
+{
+  "name": "heritage-site-build",
+  "local_port": 50090,
+  "entrypoint": "bun run dev",
+  "env": {
+    "VITE_ZO_SITE_DEMO_VARIANT": "marketing"
+  },
+  "publish": {
+    "label": "heritage-site-build",
+    "type": "http",
+    "entrypoint": "bun run prod",
+    "published_port": 55623,
+    "env": {
+      "NODE_ENV": "production",
+      "ZO_CLIENT_IDENTITY_TOKEN": "none",
+      "VITE_ZO_SITE_DEMO_VARIANT": "marketing"
+    }
+  }
+}

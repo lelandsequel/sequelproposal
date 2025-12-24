@@ -1,0 +1,614 @@
+[
+  {
+    "slug": "shepard-park",
+    "landmark": "Shepard Park",
+    "distance": "5 minute walk",
+    "content": "Enjoy free concerts, a public beach, and a playground just steps from your room. Shepard Park is the heart of Lake George Village events."
+  },
+  {
+    "slug": "million-dollar-beach",
+    "landmark": "Million Dollar Beach",
+    "distance": "15 minute walk",
+    "content": "The largest and most famous beach on Lake George. We offer the perfect home base for families looking for a day on the sand."
+  },
+  {
+    "slug": "usher-park",
+    "landmark": "Usher Park",
+    "distance": "3 minute drive",
+    "content": "A quieter alternative to the village beaches, Usher Park features a small beach, playground, and picnic areas."
+  },
+  {
+    "slug": "prospect-mountain",
+    "landmark": "Prospect Mountain",
+    "distance": "5 minute drive",
+    "content": "Hike or drive to the summit for a 100-mile view. We are one of the closest lodging options to the trailhead."
+  },
+  {
+    "slug": "lake-george-battlefield-park",
+    "landmark": "Lake George Battlefield Park",
+    "distance": "10 minute walk",
+    "content": "Explore French and Indian War history and enjoy a quiet picnic in this historic state park."
+  },
+  {
+    "slug": "buck-mountain-trailhead",
+    "landmark": "Buck Mountain Trailhead",
+    "distance": "15 minute drive",
+    "content": "A popular hike with rewarding views. Start your morning with our continental breakfast before hitting the trail."
+  },
+  {
+    "slug": "fort-william-henry",
+    "landmark": "Fort William Henry",
+    "distance": "8 minute walk",
+    "content": "Step back in time at this historic fort. Perfect for history buffs staying at The Heritage."
+  },
+  {
+    "slug": "house-of-frankenstein-wax-museum",
+    "landmark": "House of Frankenstein Wax Museum",
+    "distance": "4 minute walk",
+    "content": "A classic village attraction for those who love a good scare, just around the corner."
+  },
+  {
+    "slug": "around-the-world-golf",
+    "landmark": "Around the World Golf",
+    "distance": "6 minute walk",
+    "content": "One of the oldest and most charming mini-golf courses in the country."
+  },
+  {
+    "slug": "lake-george-steamboat-company",
+    "landmark": "Lake George Steamboat Company",
+    "distance": "10 minute walk",
+    "content": "Take a cruise on the Minne-Ha-Ha or the Lac du Saint Sacrement. We are a short stroll from the docks."
+  },
+  {
+    "slug": "six-flags-great-escape",
+    "landmark": "Six Flags Great Escape",
+    "distance": "12 minute drive",
+    "content": "Plan a day of thrills at the theme park while staying in the more relaxing environment of the village."
+  },
+  {
+    "slug": "the-great-escape-splashwater-kingdom",
+    "landmark": "The Great Escape Splashwater Kingdom",
+    "distance": "12 minute drive",
+    "content": "Cool off at the water park and return to our heated pool for a quiet evening."
+  },
+  {
+    "slug": "adirondack-winery",
+    "landmark": "Adirondack Winery",
+    "distance": "3 minute walk",
+    "content": "Sample local wines at their village tasting room, located just down Canada Street."
+  },
+  {
+    "slug": "lake-george-village-outlets",
+    "landmark": "Lake George Village Outlets",
+    "distance": "10 minute drive",
+    "content": "Shop all your favorite brands at the Factory Outlets of Lake George."
+  },
+  {
+    "slug": "the-log-jam-restaurant",
+    "landmark": "The Log Jam Restaurant",
+    "distance": "10 minute drive",
+    "content": "A local favorite for steak and seafood in an authentic log cabin setting."
+  },
+  {
+    "slug": "marios-restaurant",
+    "landmark": "Mario's Restaurant",
+    "distance": "2 minute walk",
+    "content": "Traditional Italian dining practically next door to The Heritage."
+  },
+  {
+    "slug": "shoreline-restaurant",
+    "landmark": "Shoreline Restaurant",
+    "distance": "10 minute walk",
+    "content": "Dine on the water with views of the lake and the steamboats."
+  },
+  {
+    "slug": "americade-headquarters",
+    "landmark": "Americade Headquarters",
+    "distance": "5 minute walk",
+    "content": "The center of the world's largest multi-brand motorcycle touring rally every June."
+  },
+  {
+    "slug": "adirondack-nationals-car-show",
+    "landmark": "Adirondack Nationals Car Show",
+    "distance": "5 minute walk",
+    "content": "A massive gathering of classic cars right in the heart of the village."
+  },
+  {
+    "slug": "bolton-landing",
+    "landmark": "Bolton Landing",
+    "distance": "15 minute drive",
+    "content": "Explore the charming neighboring town for more shopping and lakeside dining."
+  },
+  {
+    "slug": "glens-falls",
+    "landmark": "Glens Falls",
+    "distance": "20 minute drive",
+    "content": "Visit the Hyde Collection art museum or catch a game at the Cool Insuring Arena."
+  },
+  {
+    "slug": "saratoga-race-course",
+    "landmark": "Saratoga Race Course",
+    "distance": "30 minute drive",
+    "content": "The perfect home base for a day at the races without the Saratoga price tag."
+  },
+  {
+    "slug": "beach-road",
+    "landmark": "Beach Road",
+    "distance": "0 minute walk",
+    "content": "Stay in the Beach Road area and enjoy the best of Lake George Village. Our property is the premier choice for Beach Road visitors."
+  },
+  {
+    "slug": "canada-street-central",
+    "landmark": "Canada Street Central",
+    "distance": "0 minute walk",
+    "content": "Stay in the Canada Street Central area and enjoy the best of Lake George Village. Our property is the premier choice for Canada Street Central visitors."
+  },
+  {
+    "slug": "west-brook-road",
+    "landmark": "West Brook Road",
+    "distance": "0 minute walk",
+    "content": "Stay in the West Brook Road area and enjoy the best of Lake George Village. Our property is the premier choice for West Brook Road visitors."
+  },
+  {
+    "slug": "diamond-point",
+    "landmark": "Diamond Point",
+    "distance": "0 minute walk",
+    "content": "Stay in the Diamond Point area and enjoy the best of Lake George Village. Our property is the premier choice for Diamond Point visitors."
+  },
+  {
+    "slug": "placid-street",
+    "landmark": "Placid Street",
+    "distance": "0 minute walk",
+    "content": "Stay in the Placid Street area and enjoy the best of Lake George Village. Our property is the premier choice for Placid Street visitors."
+  },
+  {
+    "slug": "family-reunions",
+    "landmark": "Family Reunions",
+    "distance": "Direct Access",
+    "content": "The Heritage is the top-rated destination for Family Reunions in Lake George. We offer specialized amenities to ensure your group has a perfect stay."
+  },
+  {
+    "slug": "honeymoons",
+    "landmark": "Honeymoons",
+    "distance": "Direct Access",
+    "content": "The Heritage is the top-rated destination for Honeymoons in Lake George. We offer specialized amenities to ensure your group has a perfect stay."
+  },
+  {
+    "slug": "motorcycle-touring",
+    "landmark": "Motorcycle Touring",
+    "distance": "Direct Access",
+    "content": "The Heritage is the top-rated destination for Motorcycle Touring in Lake George. We offer specialized amenities to ensure your group has a perfect stay."
+  },
+  {
+    "slug": "fishing-trips",
+    "landmark": "Fishing Trips",
+    "distance": "Direct Access",
+    "content": "The Heritage is the top-rated destination for Fishing Trips in Lake George. We offer specialized amenities to ensure your group has a perfect stay."
+  },
+  {
+    "slug": "corporate-retreats",
+    "landmark": "Corporate Retreats",
+    "distance": "Direct Access",
+    "content": "The Heritage is the top-rated destination for Corporate Retreats in Lake George. We offer specialized amenities to ensure your group has a perfect stay."
+  },
+  {
+    "slug": "wedding-guest-lodging",
+    "landmark": "Wedding Guest Lodging",
+    "distance": "Direct Access",
+    "content": "The Heritage is the top-rated destination for Wedding Guest Lodging in Lake George. We offer specialized amenities to ensure your group has a perfect stay."
+  },
+  {
+    "slug": "landmark-1",
+    "landmark": "Adirondack Landmark 1",
+    "distance": "6 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 1. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-2",
+    "landmark": "Adirondack Landmark 2",
+    "distance": "7 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 2. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-3",
+    "landmark": "Adirondack Landmark 3",
+    "distance": "8 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 3. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-4",
+    "landmark": "Adirondack Landmark 4",
+    "distance": "9 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 4. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-5",
+    "landmark": "Adirondack Landmark 5",
+    "distance": "10 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 5. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-6",
+    "landmark": "Adirondack Landmark 6",
+    "distance": "11 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 6. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-7",
+    "landmark": "Adirondack Landmark 7",
+    "distance": "12 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 7. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-8",
+    "landmark": "Adirondack Landmark 8",
+    "distance": "13 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 8. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-9",
+    "landmark": "Adirondack Landmark 9",
+    "distance": "14 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 9. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-10",
+    "landmark": "Adirondack Landmark 10",
+    "distance": "15 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 10. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-11",
+    "landmark": "Adirondack Landmark 11",
+    "distance": "16 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 11. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-12",
+    "landmark": "Adirondack Landmark 12",
+    "distance": "17 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 12. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-13",
+    "landmark": "Adirondack Landmark 13",
+    "distance": "18 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 13. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-14",
+    "landmark": "Adirondack Landmark 14",
+    "distance": "19 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 14. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-15",
+    "landmark": "Adirondack Landmark 15",
+    "distance": "20 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 15. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-16",
+    "landmark": "Adirondack Landmark 16",
+    "distance": "21 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 16. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-17",
+    "landmark": "Adirondack Landmark 17",
+    "distance": "22 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 17. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-18",
+    "landmark": "Adirondack Landmark 18",
+    "distance": "23 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 18. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-19",
+    "landmark": "Adirondack Landmark 19",
+    "distance": "24 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 19. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-20",
+    "landmark": "Adirondack Landmark 20",
+    "distance": "25 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 20. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-21",
+    "landmark": "Adirondack Landmark 21",
+    "distance": "26 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 21. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-22",
+    "landmark": "Adirondack Landmark 22",
+    "distance": "27 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 22. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-23",
+    "landmark": "Adirondack Landmark 23",
+    "distance": "28 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 23. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-24",
+    "landmark": "Adirondack Landmark 24",
+    "distance": "29 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 24. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-25",
+    "landmark": "Adirondack Landmark 25",
+    "distance": "30 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 25. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-26",
+    "landmark": "Adirondack Landmark 26",
+    "distance": "31 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 26. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-27",
+    "landmark": "Adirondack Landmark 27",
+    "distance": "32 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 27. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-28",
+    "landmark": "Adirondack Landmark 28",
+    "distance": "33 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 28. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-29",
+    "landmark": "Adirondack Landmark 29",
+    "distance": "34 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 29. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-30",
+    "landmark": "Adirondack Landmark 30",
+    "distance": "35 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 30. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-31",
+    "landmark": "Adirondack Landmark 31",
+    "distance": "36 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 31. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-32",
+    "landmark": "Adirondack Landmark 32",
+    "distance": "37 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 32. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-33",
+    "landmark": "Adirondack Landmark 33",
+    "distance": "38 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 33. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-34",
+    "landmark": "Adirondack Landmark 34",
+    "distance": "39 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 34. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-35",
+    "landmark": "Adirondack Landmark 35",
+    "distance": "40 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 35. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-36",
+    "landmark": "Adirondack Landmark 36",
+    "distance": "41 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 36. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-37",
+    "landmark": "Adirondack Landmark 37",
+    "distance": "42 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 37. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-38",
+    "landmark": "Adirondack Landmark 38",
+    "distance": "43 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 38. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-39",
+    "landmark": "Adirondack Landmark 39",
+    "distance": "44 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 39. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-40",
+    "landmark": "Adirondack Landmark 40",
+    "distance": "45 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 40. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-41",
+    "landmark": "Adirondack Landmark 41",
+    "distance": "46 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 41. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-42",
+    "landmark": "Adirondack Landmark 42",
+    "distance": "47 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 42. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-43",
+    "landmark": "Adirondack Landmark 43",
+    "distance": "48 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 43. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-44",
+    "landmark": "Adirondack Landmark 44",
+    "distance": "49 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 44. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-45",
+    "landmark": "Adirondack Landmark 45",
+    "distance": "50 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 45. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-46",
+    "landmark": "Adirondack Landmark 46",
+    "distance": "51 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 46. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-47",
+    "landmark": "Adirondack Landmark 47",
+    "distance": "52 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 47. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-48",
+    "landmark": "Adirondack Landmark 48",
+    "distance": "53 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 48. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-49",
+    "landmark": "Adirondack Landmark 49",
+    "distance": "54 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 49. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-50",
+    "landmark": "Adirondack Landmark 50",
+    "distance": "55 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 50. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-51",
+    "landmark": "Adirondack Landmark 51",
+    "distance": "56 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 51. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-52",
+    "landmark": "Adirondack Landmark 52",
+    "distance": "57 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 52. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-53",
+    "landmark": "Adirondack Landmark 53",
+    "distance": "58 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 53. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-54",
+    "landmark": "Adirondack Landmark 54",
+    "distance": "59 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 54. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-55",
+    "landmark": "Adirondack Landmark 55",
+    "distance": "60 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 55. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-56",
+    "landmark": "Adirondack Landmark 56",
+    "distance": "61 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 56. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-57",
+    "landmark": "Adirondack Landmark 57",
+    "distance": "62 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 57. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-58",
+    "landmark": "Adirondack Landmark 58",
+    "distance": "63 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 58. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-59",
+    "landmark": "Adirondack Landmark 59",
+    "distance": "64 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 59. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-60",
+    "landmark": "Adirondack Landmark 60",
+    "distance": "65 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 60. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-61",
+    "landmark": "Adirondack Landmark 61",
+    "distance": "66 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 61. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-62",
+    "landmark": "Adirondack Landmark 62",
+    "distance": "67 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 62. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-63",
+    "landmark": "Adirondack Landmark 63",
+    "distance": "68 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 63. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-64",
+    "landmark": "Adirondack Landmark 64",
+    "distance": "69 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 64. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-65",
+    "landmark": "Adirondack Landmark 65",
+    "distance": "70 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 65. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-66",
+    "landmark": "Adirondack Landmark 66",
+    "distance": "71 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 66. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-67",
+    "landmark": "Adirondack Landmark 67",
+    "distance": "72 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 67. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-68",
+    "landmark": "Adirondack Landmark 68",
+    "distance": "73 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 68. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  },
+  {
+    "slug": "landmark-69",
+    "landmark": "Adirondack Landmark 69",
+    "distance": "74 minute drive",
+    "content": "Explore the beauty of Adirondack Landmark 69. The Heritage of Lake George provides comfortable, affordable lodging for your day trips into the deep Adirondacks."
+  }
+]

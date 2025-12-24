@@ -1,51 +1,65 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import BlankDemo from "./pages/demos/blank-demo";
-import BlogDemo from "./pages/demos/blog-demo";
-import EventDemo from "./pages/demos/event-demo";
-import SlidesDemo from "./pages/demos/slides-demo";
-import DataDemo from "./pages/demos/data-demo";
-import MarketingDemo from "./pages/demos/marketing-demo";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import LandmarkPage from "./pages/pSEO/LandmarkPage";
+import Proposal from "./pages/Proposal";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Button } from "@/components/ui/button";
+import { IconBook, IconLayout } from "@tabler/icons-react";
+import { cn } from "@/lib/utils";
 
-/**
- * Main SPA application component. Backend router is defined in `../server.ts`.
- *
- * Variant routing: The root route shows a demo component based on the
- * VITE_ZO_SITE_DEMO_VARIANT environment variable set in zosite.json.
- * Individual demos are also accessible at their own routes for development.
- */
+function ModeToggle() {
+  const location = useLocation();
+  const [mode, setMode] = useState<"strategy" | "site">("strategy");
 
-const DEMO_COMPONENTS = {
-  blank: BlankDemo,
-  blog: BlogDemo,
-  event: EventDemo,
-  slides: SlidesDemo,
-  data: DataDemo,
-  marketing: MarketingDemo,
-} as const;
+  // On first load of the root, default to strategy
+  useEffect(() => {
+    if (location.pathname === "/") {
+      setMode("strategy");
+    } else {
+      setMode("site");
+    }
+  }, [location.pathname]);
 
-type Variant = keyof typeof DEMO_COMPONENTS;
+  return (
+    <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[100] bg-background/80 backdrop-blur-md border border-border p-1.5 rounded-full shadow-2xl flex items-center gap-1">
+      <Button
+        variant={mode === "strategy" ? "default" : "ghost"}
+        size="sm"
+        className={cn("rounded-full px-6 transition-all", mode === "strategy" ? "shadow-lg" : "")}
+        onClick={() => {
+          setMode("strategy");
+          window.location.href = "/proposal";
+        }}
+      >
+        <IconBook className="w-4 h-4 mr-2" />
+        THE STRATEGY
+      </Button>
+      <Button
+        variant={mode === "site" ? "default" : "ghost"}
+        size="sm"
+        className={cn("rounded-full px-6 transition-all", mode === "site" ? "shadow-lg" : "")}
+        onClick={() => {
+          setMode("site");
+          window.location.href = "/";
+        }}
+      >
+        <IconLayout className="w-4 h-4 mr-2" />
+        THE SITE
+      </Button>
+    </div>
+  );
+}
 
 export default function App() {
-  const variant =
-    (import.meta.env.VITE_ZO_SITE_DEMO_VARIANT as Variant) || "blank";
-  const DemoComponent = DEMO_COMPONENTS[variant] || BlankDemo;
-
   return (
     <ThemeProvider>
       <BrowserRouter>
+        <ModeToggle />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/proposal" element={<Proposal />} />
           <Route path="/guide/:slug" element={<LandmarkPage />} />
-          <Route path="/demos/blank" element={<BlankDemo />} />
-          <Route path="/demos/blog" element={<BlogDemo />} />
-          <Route path="/demos/event" element={<EventDemo />} />
-          <Route path="/demos/slides" element={<SlidesDemo />} />
-          <Route path="/demos/data" element={<DataDemo />} />
-          <Route path="/demos/marketing" element={<MarketingDemo />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

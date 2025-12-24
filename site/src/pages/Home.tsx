@@ -213,7 +213,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mx-auto max-w-7xl px-6 mt-24 pt-8 border-t text-sm text-muted-foreground flex justify-between">
-          <p>© 2026 The Heritage of Lake George. Build by Candle Strategy.</p>
+          <p>© 2026 The Heritage of Lake George. Build by C&L Strategy.</p>
           <div className="flex gap-8">
             <Link to="/">Privacy Policy</Link>
             <Link to="/">Sitemap</Link>
@@ -223,6 +223,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 

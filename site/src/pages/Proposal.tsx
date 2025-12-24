@@ -13,7 +13,10 @@ import {
   IconMapPin,
   IconCpu,
   IconMessageCircle,
-  IconRoad
+  IconRoad,
+  IconWalk,
+  IconConfetti,
+  IconHome
 } from "@tabler/icons-react";
 import { useNavigate } from "react-router-dom";
 
@@ -186,8 +189,7 @@ export default function Proposal() {
             </div>
              <div className="space-y-3">
                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                 <IconConfetti className="w-6 h-6" /> // Assuming IconConfetti was imported in Home, using generic here if needed, or IconFlame
-                 {/* Re-using IconFlame from imports if Confetti fails, but let's assume imports are consistent with prior files */}
+                 <IconConfetti className="w-6 h-6" /> 
                </div>
                <h3 className="font-bold text-xl">Family Value</h3>
                <p className="text-slate-600">Highlighting the gazebo, grills, and s'mores—the "tradition" that brings families back.</p>
@@ -262,4 +264,5 @@ export default function Proposal() {
     </div>
   );
 }
+
 
